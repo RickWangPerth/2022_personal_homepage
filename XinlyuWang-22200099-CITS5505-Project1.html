@@ -1,0 +1,725 @@
+
+<!-- Document Type Declaration -->
+<!DOCTYPE html>
+<!-- Language -->
+<html lang="en">
+<head>
+    <!-- Meta Data -->
+    <!-- Character set -->
+    <meta charset="utf-8">
+    <!-- Viewport element-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <!--Web Info -->
+    <meta name="description" content="UWA CITS5505 project 1">
+    <meta name="author" content="Xinlyu Wang 22200099">
+
+    <!-- Import CSS -->
+    <!-- Bootstrap CSS 5.13-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- My CSS 1.00 -->
+    <link rel="stylesheet" href="./css/RickStyle.css">  
+
+    <!-- Import JS -->
+    <!-- Jquery JS 1.12.4 -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS 5.13 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- My JS 1.00 -->
+    <script src="./js/RickJS.js"></script>
+
+    <title>RICK: COD Lecture</title>
+</head>
+<body>
+    <!-- Navbar from Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+        <!-- Move with window -->
+        <div class="container-fluid">
+            <!-- Icon on the navbar -->
+            <a class="navbar-brand" href="#top">
+                <img src="./images/icon.png" alt="" class="navicon">
+                <!-- Title on the page -->
+                CITS5505 project 1
+            </a>
+            <!-- Content list of COD -->
+            <!-- Downward button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <!-- Subcontent table -->
+                        <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                        Code on Demand
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="nav-item">
+                                <!-- Point to content of COD part -->
+                                <a class="nav-link" href="#ContentCoD" style="color: black;">Content of Code on Demand</a>
+                            </li>
+                            <li class="nav-item">
+                                <!-- Point to history of COD part -->
+                                <a class="nav-link" href="#HistoryCoD" style="color: black;">History of Code on Demand</a>
+                            </li>
+                        </ul>
+                    </li>
+                
+            <!-- Point to CV part -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#CV" style="color: white;">Rick'CV</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Rick laboratory -->
+    <section class="bgimage" id="main">
+        <!-- Content move with the window -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Set content style -->
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 hero-text">
+                    <div class="hero-box">
+                        <!--Text on the main page-->
+                        <h2 class="hero-title"> Welcome to Rick's laboratory </h2>
+                        <h5 class="hero-description"> Let's do some research on <span style="color: aqua; font-size:3rem;">code on demamd</span> TODAY! Errrrrr~ </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <!-- Content of Code on Demand -->
+    <section id="ContentCoD">
+        <div class="lecture-note"> 
+            <h2 id="opening" style="color: red;"> <strong>Before today lecture please turn off the light. Then you can see everything clearly</strong></h2>
+             <!-- Light button -->
+             <div class="d-grid gap-2 col-6 mx-auto py-5">
+                <button id="light-off" class="btn light-btn btn-lg"> Turn off the light </button>
+            </div>
+        </div>
+        <button class="backtop-btn" title="Click and learn again or to turn off the light"> 
+            <img src="./images/backtop.png" style="width:30px" alt="arrow-up"> </button>
+        <!-- Lecture -->
+        <section class="note">
+            <!-- Funny story -->
+            <div class="container">
+                <div class="row">
+                    <!-- Divide window into two part 9/3 -->
+                    <!-- Text position: center -->
+                    <!-- Set margin -->
+                    <div class="col-md-9 text-md-center mb-3">
+                        <!-- Note ATM -->
+                        <p>Do you know that bank clerks are sitting in ATMs?</p>
+                        <p>Every time we insert our credit card and input the password.</p>
+                        <p>A clerk will help us count the money we want to deposit or withdraw carefully.</p>
+                        <p>Evil bank managers want to make the clerks invisible. </p>
+                        <p>They almost succeeded, but the noise of counting money still exposed them. </p>
+                        <p><strong>Please keep that secret. </strong> </p>
+                        <p>Saying that aloud will make a pitful clerk lose his or her job, but evil bank managers lose noting. </p>
+                        <p>Recently I found a powerful website called DeFi, Decentralized Finance, which will punch into evils' faces ...... </p>
+                        <p>oh, I've gotten carried away. If you are interested in it, we can have a chat after this class.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <!-- Set style individually -->
+                        <!-- Put image to right hand side -->
+                        <img class="note-img" style="top:-20px;width:140%;left: -50px;" src="./images/atm.webp" alt="ATM">
+                    </div> 
+                </div>
+            </div>
+            <!-- Note COD-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 text-md-center mb-3">
+                        <p>Same as the ATM, there are tons of programmers sitting behind websites.</p>
+                        <p>When you request some magic things, which are not on your computer.</p>
+                        <p>The magic things are store in a web server.</p>
+                        <p>Programmers get the requirement, go to the server, and bring them back back to you. </p>
+                        <p> <strong>This job is called code on demand.</strong> </p>
+                        <p>The magic things include: </p> 
+                        <p>Java applets, JavaScript, Flash Player, and Adobe's ActionScript. </p>
+                        <p>WenAssembly is the latest one in this field.</p>
+                        <p>When you received the things you want, they will be excuted in your computer.</p>
+                        <p>They will end after you leave the website page.</p>
+                    </div>
+                    <!-- Put image to right hand side-->
+                    <div class="col-md-3 text-md-start md-8">
+                        <img class="note-img" src="./images/programmer.png" alt="programmer">
+                    </div> 
+                </div>
+            </div>
+            <!-- Seperator -->
+            <div class="lecture-band" > 
+                <h2> Thanks to every person who works behind the screen!</h2>
+            </div>
+            <!-- Note COD -->
+            <div class="lecture-note"> 
+                <p>Because this unit is also for the master's students, let's say something technically. </p>
+                <p>All technologies are used for sending executable software code from a server to a client upon request from the client's computer are</p>
+                <p><strong>code on demand</strong></p>
+                <p>The executable software code is stored on the web servers.</p>
+                <p>After receiving the request, the state of the executable software code will change from inactive to active. </p>
+                <p>The code will be sent to the client's browser based on HTTP. </p>
+                <p>When the page is displayed, the code will execute locally.</p>
+                <p>Code on demand is a subset in the field of code mobility.</p>
+            </div>
+            <!-- Picture example -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-md-center mb-3 py-5">
+                        <h2>Single Page Applications</h2>
+                        <p class="py-2">The single page application (SPA) is a web application or website that interacts with the user 
+                            by dynamically rewriting the current page, rather than loading entire new pages from the server.</p>
+                        <p>The server will send all the raw materials, including HTML, CSS, and JS, of the page when first time clients open it on their devices. 
+                            Then all the materials will be processed on the client's device.</p>
+                        <p style="color: orange;">The SPA removes the need for constant reloading of the full webpage, 
+                            and it only dynamically reloads the relevant content for each user interaction.</p>
+                        <p style="color: orange;"> Page pulls data through ajax to achieve response function</p>
+                        <p style="color: orange;">Since the functionality of SPAs is handled within the browser, 
+                            this type of application is always made using frontend frameworks like React, Angular, Vue etc.</p>
+                        <p>SPA brings a faster user experience and needs fewer server resources.</p>
+                        <p>Example of application: Gmail, Google Maps, Facebook and Twitter etc.</p>
+                    </div>
+                    <div class="col-md-8 text-md-start md-8" style="margin-top: 120px;">
+                        <img src="./images/flowchat.png" style="width:100%;" alt="flowchart">
+                    </div> 
+                </div>
+            </div>
+            <!-- Interactive example -->
+            <div class="playground " id="playground" > 
+                <h2>Let's go to the playground</h2>
+                <h2>and do some exerices with code on</h2>
+            </div>
+            <div class="row">
+                <div class="column py-5">
+                    <!-- USE AJAX to get Perth real time weather -->
+                    <div class="actcard text-md-center col-md-4" style="margin-left: 10px;">
+                        <div>
+                            <h3 class="py-1">How is the weather today</h3>
+                            <button id="weather-btn" class="act-btn btn-sm"> Get Weather</button>
+                            <div class="py-3"></div>
+                            <div id="weather"> </div>
+                            <p><span id="curloaction">  </span></p>
+                            <p><span id="temp"> </span></p>
+                            <p><span id="sunny"> </span></p>
+                            <div class="py-3"> </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Let's Dance -->
+                <div class="column py-5">
+                    <div class="actcard text-md-center col-md-4" >
+                        <h3 class="py-1"> Change the color of light </h3>
+                        <button class="act-btn btn-sm" id="chage-on"> Let's dance </button>
+                        <button class="act-btn btn-sm" id="chage-off"> Stop </button>
+                        <div id="danceimg">
+                        </div>
+                        <div class="py-1"> </div>
+
+                    </div>
+                </div>
+                <!-- Table for best science fiction sitcom -->
+                <div class="column py-5">
+                    <div class="actcard text-md-center col-md-4" style="margin-left:-10px;">
+                        <h3 class="py-1"> Best science fiction sitcom in the universe</h3>
+                        <input id="best-name">
+                        <button class="act-btn btn-sm" id="submit-btn" style="background:greenyellow;">Submit</button>
+                        <p>hint: R* and M*</p>
+                        <p id="response"></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Case study -->
+            <div class="lecture-band" > 
+                <h2> Case study & Pros and Cons</h2>
+            </div>
+            <div class="row py-5">
+                <div class="column py-3">
+                    <!-- USE AJAX to get Perth real time weather -->
+                    <div class="actcard text-md-center col-md-4" style="margin-left: 10px;">
+                        <div>
+                            <h3 class="py-3">CASE 1:</h3>
+                            <h3 class="py-1">How is the weather today</h3>
+                            <p class="case-study">In this case, I use AJAX to pull the JSON file through Application Programming Interface (API). </p>
+                            <p class="case-study">When you click the button, your browser will send an XMLHTTP request to the server and get the data about the weather in Perth. 
+                                Then the data will be present on your screen by using DOM.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Let's Dance -->
+                <div class="column py-3">
+                    <div class="actcard text-md-center col-md-4" >
+                        <h3 class="py-3">CASE 2:</h3>
+                        <h3 class="py-1">Change the color of light </h3>
+                        <p class="case-study">I wrote a function that can generate a random color in the JS file. </p>
+                        <p class="case-study">I used the setInterval/clearInterval to start/stop the color change in the playground. </p>
+                        <p class="case-study">The light begins to change and a gif is added when you click the "Let's dance" button. 
+                            And light stop changing and an image is shown when you click the "Stop" button.</p>
+                    </div>
+                </div>
+                <!-- Table for best science fiction sitcom -->
+                <div class="column py-3">
+                    <div class="actcard text-md-center col-md-4" style="margin-left:-10px;">
+                        <h3 class="py-3">CASE 3:</h3>
+                        <h3 class="py-1">Best science fiction sitcom in the universe</h3>
+
+                        <p class="case-study">I make a questionnaire to collect the users' input. After users click the "Submit"  button, JS function will tell them right or not.</p>
+                        <p class="case-study" style="font-size: small;">I want to use jQuery function load to get a picture from a website. But I met a CORS rejection.</p>
+                        <p class="case-study" style="font-size: small;">That could be solved by VSCode extension Live Server but will involve multiple steps to do. So I give up.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Pros and cons -->
+            <div class="container py-2">
+                <div class="row">
+                    <div class="col-md-6 text-md-center mb-3">
+                        <div id="proflip"><strong>Pros (click to see the content)</strong></div>
+                        <div id="propanel"> 
+                            <ul>
+                                <li>
+                                    <strong>Faster User Experience (after first load):</strong>
+                                    <p>Communicate with the server to maintain data without refreshing the entire page. 
+                                        This makes the Web application more responsive to user interaction and avoids sending unchanged information over the network, 
+                                        reducing user wait time and bringing a fast user experience.</p>
+                                </li>
+                                <li>
+                                    <strong>Fewer Server Resources</strong>
+                                    <p>Code on demand can transfer some workload of the server to the client, 
+                                        which will reduce the burden on the server and bandwidth, 
+                                        and save space and broadband rental costs.</p>
+                                </li>
+                                <li>
+                                    <strong>Separating Content and Presentation</strong>
+                                    <p>It is conducive to the cooperation of the development team, 
+                                        reduces errors when web applications modify page content, 
+                                        and improve efficiency.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-md-start mb-3">
+                        <div id="conflip"><strong>Cons (click to see the content)</strong></div>
+                        <div id="conpanel">
+                            <ul>
+                                <li>
+                                    <strong>Broken browser mechanism:</strong>
+                                    <p>In the case of dynamically updating the page, the user cannot go back to the previous page state, 
+                                        because the browser can only remember the static page in the history.</p>
+                                </li>
+                                <li>
+                                    <strong>SEO Difficulties:</strong>
+                                    <p>Each page of the site comes from a URL. This structure may limit the functionality 
+                                        that the SPA can use to take advantage of search engine optimization (SEO) techniques.c</p>
+                                </li>
+                                <li>
+                                    <strong>Security Issues:</strong>
+                                    <p>Exposes the details of how the browser interacts with the server. 
+                                        It is difficult to avoid some known security weaknesses, 
+                                        such as cross-site footstep attacks, SQL injection attacks, and Credentials-based security vulnerabilities.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <!-- Constrains of COD -->
+            <div class="lecture-band" > 
+                <h2>Code on demand is goog but...</h2>
+                <h2>It has many constrains</h2>
+            </div>
+            <!-- Constrain: Client-Server -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-md-center mb-3 py-5">
+                        <h2><strong>Client-Server</strong></h2>
+                    </div>
+                    <div class="col-md-9 text-md-start md-8 py-5">
+                        <p class="constrain-content">
+                            Code on demand needs communication between clients and servers. The client focus on the front-end and the servers' concern is about back-end stuff.
+                            So if the network does not include both of them, we cannot use code on demand.
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <!-- Constrain: Stateless -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-md-center mb-3 py-5">
+                        <h2><strong>Stateless</strong></h2>
+                    </div>
+                    <div class="col-md-9 text-md-start md-8 py-5">
+                        <p class="constrain-content">
+                            States of the sender will be sent in TCP. But it will make communication complicated. HTML chooses the stateless communication method. 
+                            To make the code from a server can work smoothly on a client's browser, every code on demand request should include all the necessary information to perform the request. 
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <!-- Constrain: Cache -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-md-center mb-3 py-5">
+                        <h2><strong>Cache</strong></h2>
+                    </div>
+                    <div class="col-md-9 text-md-start md-8 py-5">
+                        <p class="constrain-content">
+                            The client can cache some infrequently changed information locally. 
+                            The information in the cache can be obtained directly and does not need to send a request to severs again. 
+                            If the client's cache is available, the server does not need to send a complete response, which can reduce the pressure on the server.
+                        </p>
+                    </div> 
+                </div>
+            </div>
+            <!-- Constrain: COD  -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 text-md-center mb-3 py-5">
+                        <h2><strong>Cod</strong></h2>
+                    </div>
+                    <div class="col-md-9 text-md-start md-3 py-5">
+                        <p class="constrain-content">
+                            Code on demand is the only optional constraint in REST. To improve flexibility in clients, the server will decide how the code works. 
+                            That will reduce visibility. After the client executes the code from the server, the client does not know what information will be collected. 
+                            That will cause a big problem, for example, when users input their passwords for their bank accounts may be stolen by malicious software.
+                        </p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+    </section>
+    <!-- History of Code on Demand -->
+    <section id="HistoryCoD">
+        <div class="lecture-band" > 
+            <h2> Let's explore history of Code on demand</h2>
+        </div>
+        <!-- Brif History -->
+        <div class="lecture-note py-5">
+            <p>In 1991, the first version of HTML was written by Tim Berners-Lee. So, people can read more readable material on their devices.</p>
+            <p>After years, people want more.</p> 
+            <p>They want something more than merely an "entry" for information. They want webs to become interactive, to become an application.</p> 
+            <p>An interactive web page (Originated in the mid 90's) achieves what people want.</p>
+            <p>Code on demand is the basic concept for interactive web page.</p>
+            <p>Users' devices could send a request to servers and get back data to users. People can play video games or watch a movie after a click.</p> 
+            <p>In March 2017, WebAssembly was invented, which is a more recent framework in the field of code on demand.</p>
+        </div> 
+        <!-- Show the time line -->
+        <div style="text-align: center;"><button id="timeline-btn" class="btn light-btn btn-lg "> Show the time line </button></div>
+        <div class="py-3"></div>
+        <!-- Time Line -->
+        <div class="timeline" id="timeline" style="display: none">
+            <!-- Mobile code -->
+            <div class="timecontainer left">
+                <div class="content">
+                  <h2>Mid 90's Concept raise</h2>
+                  <p>People come up with idea of an interactive web page.</p>
+                  <p>There was a growing interest in autonomously moving code components, called mobile agents.</p>
+                  <a href="https://dl.acm.org/doi/10.1109/ICSECOMPANION.2007.44" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- HTML -->
+            <div class="timecontainer right">
+                <div class="content">
+                    <h2>1991 HTML</h2>
+                    <p>HTML was invented by Berners-Lee.</p>
+                    <p>HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+                    <p>It only supported text at the time and consisted of just 18 tags at that time.</p>
+                    <a href="https://en.wikipedia.org/wiki/HTML" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- JavaScript -->
+            <div class="timecontainer left">
+                <div class="content">
+                    <h2>1995 JavaScript</h2>
+                    <p>JavaScript was invented by Brendan Eich.</p>
+                    <p>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive.</p>
+                    <a href="https://www.w3schools.com/js/js_history.asp#:~:text=JavaScript%20was%20invented%20by%20Brendan,Mozilla's%20latest%20version%20was%201.8." target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- Jave applets -->
+            <div class="timecontainer right">
+                <div class="content">
+                    <h2>1995 Java applets</h2>
+                    <p>Java applets were small applications written in the Java programming language and delivered to users in the form of Java bytecode.</p>
+                    <p>Java applet technology was a great tool to create nice and shiny applications that can be embedded into websites.</p>
+                    <p>Form 2013, major web browsers began to phase out support for the underlying technology applets used to run.</p>
+                    <p>Java applets were deprecated by Java 9 in 2017</p>
+                    <a href="https://www.vice.com/en/article/8q8n3k/a-brief-history-of-the-java-applet" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- HTML 4.0 -->
+            <div class="timecontainer left">
+                <div class="content">
+                  <h2>1996 HTML 4.0</h2>
+                  <p>HTML 4.0 supports more multimedia options, scripting languages, style sheets, better printing facilities.</p>
+                  <p>Documents that are more accessible to users with disabilities.</p>
+                  <a href="https://www.w3.org/TR/1998/REC-html40-19980424/" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- Iframe -->
+            <div class="timecontainer right">
+                <div class="content">
+                    <h2>1996 iframe element</h2>
+                    <p>An iframe element is easiest to understand as a window onto another document or site.</p>
+                    <p>The element's purpose is to place content from one HTML document in the context of another.</p>
+                    <p>From the widow created by iframe, user can see the information in Google Maps and YouTube.</p>
+                    <a href="http://thenewcode.com/628/The-Curious-History-and-Quirky-Nature-of-iFrames#:~:text=The%20element%20has%20a,XHTML%2C%20and%20reintroduced%20in%20HTML5." target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- DOM -->
+            <div class="timecontainer left">
+                <div class="content">
+                    <h2>1998 Document Object Model</h2>
+                    <p>The Document Object Model was developed by the World Wide Web Consortium (W3C) to allow programming languages access to the underlying structure of a Web document.</p>
+                    <p>DOM is a type of application program interface (API), which represents a document with a logical tree.</p>
+                    <a href="https://en.wikipedia.org/wiki/Document_Object_Model" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- ActionScript -->
+            <div class="timecontainer right">
+                <div class="content">
+                    <h2>1998 ActionScript</h2>
+                    <p>ActionScript is an object-oriented programming language.</p>
+                    <p>ActionScript was initially designed for controlling simple 2D vector animations made in Adobe Flash.</p>
+                    <p>ActionScript programming language was designed by Gary Grossman and developed by Macromedia, which is currently acquired by Adobe systems</p>
+                    <a href="https://www.answersjet.com/2021/07/actionscript-programming-language-history-features-applications-why-should-learn-actionscript-lang.html" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- Flash -->
+            <div class="timecontainer left">
+                <div class="content">
+                    <h2>1999 Flash 5</h2>
+                    <p>Flash has been already invented. It bacome more popular because it enhance by ActionScript.</p>
+                    <p>History: FutureWave(1993) &#8594; Macromedia(1996) &#8594; Adobe(2005) &#8594;Open Source(2008)</p>
+                    <p>Adobe Flash is a multimedia software platform used for production of animations, rich web applications, desktop applications, mobile apps, mobile games, and embedded web browser video players. </p>
+                    <p>Steve Jobs in 2010 stating that he would not approve the use of Flash on their iOS devices due to numerous security flaws.</p>
+                    <p>End of 2020,many web browsers and operating systems scheduled to remove the Flash Player software.</p>
+                    <a href="https://en.wikipedia.org/wiki/Adobe_Flash" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- AJAX -->
+            <div class="timecontainer right">
+                <div class="content">
+                    <h2>2005 AJAX</h2>
+                    <p>Jesse James Garrett coins Ajax (short for Asynchronous Javascript and XML) to describe the use of Javascript to retrieve data from a server and display it on a page without a page refresh. </p>
+                    <p>AJAX is client-sided web development technique.</p>
+                    <p>Google has published a wide-ranging browser for Ajax Compliant, Gmail and Google Maps.</p>
+                    <a href="https://t4tutorials.com/history-of-ajax/" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- jQuery -->
+            <div class="timecontainer left">
+                <div class="content">
+                    <h2>2006 jQuery </h2>
+                    <p>jQuery,is a Document Object Model (DOM) manipulation library.</p>
+                    <p>jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications.</p>
+                    <p>As of Apr 2021, jQuery is used by 77.8% of the top 10 million websites.</p>
+                    <a href="https://en.wikipedia.org/wiki/JQuery#:~:text=jQuery%20was%20originally%20created%20in,being%20led%20by%20Richard%20Gibson)." target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- HTML5 -->
+            <div class="timecontainer right">
+                <div class="content">
+                    <h2>2008 HTML5 </h2>
+                    <p>HTML5 is the fifth and final major HTML version that is a World Wide Web Consortium (W3C) recommendation.</p>
+                    <p>HTML5 offers a host of new features including special elements for semantic labelling such as:</p>
+                    <ul>
+                        <li>section</li>
+                        <li>nav</li>
+                        <li>article</li>
+                        <li>aside</li>
+                        <li>header</li>
+                        <li>footer</li>
+                        <li>main</li>
+                    </ul>
+                    <p>These define the type of content associated with each element. This makes structuring content more efficient and helps search engines crawl the website.</p>
+                    <p> HTML5 site has better chances of ranking highly in search results.</p>
+                    <a href="https://www.fasthosts.co.uk/blog/look-back-html5/" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- Front-end framework-->
+            <div class="timecontainer left">
+                <div class="content">
+                    <h2>After 2010 Novel front-end frameworks</h2>
+                    <p>Front-end web development is the process of transforming the data to a graphical interface, through the usage of CSS, HTML, and JavaScript so that the users can observe and network with that data.</p>
+                    <p>Top 3 front-end Frameworks:</p>
+                    <ul>
+                        <li><strong>React:</strong> React is utilized for developing rich user interface, particularly when you need to build single-page apps.</li>
+                        <li><strong>Angular:</strong> Angular enlarges the execution of browser-based apps by vigorously modernizing the contents in less time since it exercises two-way data binding.</li>
+                        <li><strong>Vue.js:</strong> Good for progressive web apps, dynamic web apps, and complex projects with a scalable and efficient architecture. </li>
+                    </ul>
+                    <a href="https://www.monocubed.com/blog/best-front-end-frameworks/" target="_blank"> read more </a>
+                </div>
+            </div>
+            <!-- WebAssembly -->
+            <div class="timecontainer right">
+                <div class="content">
+                    <h2>2015 WebAssembly</h2>
+                    <p>WebAssembly (Wasm) is a binary instruction format for a stack-based virtual machine.</p>
+                    <p>The goal of WebAssembly was achieved the near-native code execution speed in the web browser</p>
+                    <p>Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.</p>
+                    <p>In 2019, WebAssembly became the official “fourth language for the web” behind HTML, CSS, and JavaScript.</p>
+                    <a href="https://betterprogramming.pub/a-gentle-introduction-to-webassembly-529b7bdc24e6" target="_blank"> read more </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CV -->
+    <main id="CV">
+        <section class="cv-content py-5">
+            <div class="lecture-band" > 
+                <h2> Last part, I want to introduce myself to you. </h2>
+            </div>
+            <div class="container" style="margin-top: 80px;">
+                <div class="row">
+                    <div class="col-md-6 text-md-center mb-3">
+                        <!-- Play music -->
+                        <audio controls>
+                            <!-- Two doc type of music for diff browsr -->
+                            <source src="./music/Rain.ogg" type="audio/ogg">
+                            <source src="./music/Rain.mp3" type="audio/mpeg">
+                            <!-- Error message -->
+                            Maybe the latest Chorme can make you enjoy the rain with me. Errr...
+                        </audio>
+                    </div>
+                    <div class="col-md-6 text-md-center">
+                        <h5> Let's listen to the rain and reading my profile. </h5>
+                        <h5> It hasn't rained in Perth for several months. </h5>
+                        <p style="font-size:smaller;"> Perth got a heavy rain on April 10, Winter is comming.</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!-- Header of CV -->
+        <section class="cv-header py-5">
+            <div class="container">
+                <div class="row">
+                    <!-- Divider -->
+                    <div class="col-md-3 text-left text-md-center mb-3">
+                    <!-- Put photo into a round circle -->
+                    <img class="rounded-circle img-fluid" src="./images/cvphoto.jpeg" alt="Profile Photo" />
+                    </div>
+                    <!-- Rick Info -->
+                    <div class="col-md-9">
+                        <h2><strong>Richard Xinlyu Sanchez</strong></h2>
+                        <p><strong> Email: </strong>RickSanchez@gmail.com | <strong>Address: </strong> Reid Library(day) time McGillivray Oval(night) | <strong>Phone:</strong> Null</p>
+                        <h5>Great scientist &#8594; Crypto investor &#8594; Psychotic</h5>
+                        <p class="intro black-line"> Everyone should heard my heroic deeds. I dont want to talk too much here. I hope everyone feel great after reading my lecture.</p>
+                        <p class="intro"> Oh, one more thing. If you think my lecture is good, please give me some bitcoin to my MetaMask wallet. Please transfer as much as you can, because base on my experience, if you hold a crypto, it will go to zero soon.</p>
+                        <p class="intro"> My public address is Errrr... I forget it. I can not keep that in mind. It is too long. And I have pawned my phone. Good news is I still remenber my mnemonic phrase, if you can borrow a phone to me, I can find it back.</p>
+                    </div>       
+                </div>        
+            </div>
+        </section>
+        <!-- Container for experience -->
+        <section class="cv-content py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md mb-4 exp">
+                        <!-- Work experience -->
+                        <h2 class="mb-3">Work Experience</h2>
+                        <!-- Experience list -->
+                        <ul>
+                        <li>
+                            <h5>Scientist 1960-2010</h5>
+                            <p>5 times Nobel Prize in Physics winner. Put forward a new theory in quantum mechanics. First alien catcher. </p>
+                        </li>
+                        <li>
+                            <h5>Crypto investor 2010-2020</h5>
+                            <p>Bought 100,000 Bitcoin in 2010. Sold all of them in 2016. Used that profit to buy a house in applecross. </p>
+                            <p>Bought 100,000 Bitcoin back in 2017. Sold my house.</p>
+                            <p>Bought Copycat coin. Pawned my phone.</p>
+                        </li>
+                        <li>
+                            <h5>Psychotic 2020 - Present </h5>
+                            <p>Elon Musk was my student.</p>
+                        </li>
+                        </ul>
+                    </div>
+                
+                    <div class="col-md mb-4 exp ">
+                    <!-- Education -->
+                        <h2 class="mb-3">Education</h2> 
+                        <!-- List of education -->
+                        <ul>
+                            <li>
+                                <h5>Learn From Albert Einstein at home 1950 - 1955</h5>
+                                <p>Have a thorough understand in general relativity.cast a newlight on Special Theory of Relativity.</p>
+                            </li>
+                            <li>
+                                <h5>Research with Dennis MacAlistair Ritchie in Nokia Bell Labs 1970 - 2016</h5>
+                                <p>Invented C language</p>
+                            </li>
+                            <li>
+                                <h5>Master of IT in UWA 2022 - Present</h5>
+                                <p>Learned how to develop a website. Find some new friend.</p>
+                                <!-- Ability bar from Bootstrap -->
+                                <p style="color:greenyellow"><strong>To become a great web developer (%) </strong></p>
+                                <div class="progress">
+                                    <!-- green striped  animated -->
+                                    <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>     
+                </div> 
+            </div> 
+        </section>
+    </main>
+    <!-- Quiz Time -->
+    <section id="quiz">
+        <div class="lecture-band">
+            <h5>Humm what thing is good for the end?</h5>
+            <h1 class="py-3"><strong>Quiz Time !!!</strong></h1>
+            <h5 class="py-2">After you read Rick's CV, who is the richest man in the world?</h5>
+        </div>
+        <div class="row">
+            <div class="column">
+                <!-- Quiz Card -->
+                <div class="qizcard">
+                    <!-- Image on card -->
+                    <img src="./images/ElonM&Rick.png" class="card-img" alt="ElonM&Rick" >
+                    <div class="card-body">
+                    <!-- Card title -->
+                    <h2 class="card-title">Elon Musk & Rick</h2>
+                    <!-- Card text -->
+                    <p class="card-text">Elon Reeve Musk is the early-stage investor, CEO, and Product Architect of Tesla</p>
+                    <!-- Buttom A -->
+                    <a class="qbtn" id="chooseA">A</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Same as above -->
+            <div class="column">
+                <div class="qizcard">
+                    <img src="./images/JeffB.jpg"  class="card-img" alt="JeffB" >
+                    <div class="card-body">
+                    <h2 class="card-title">Jeff Bezos</h2>
+                    <p class="card-text">Jeffrey Preston Bezos is the founder and executive chairman of Amazon</p>
+                    <a class="qbtn" id="chooseB">B</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Same as above -->
+            <div class="column">
+                <div class="qizcard">
+                    <img src="./images/BernardA.jpeg" class="card-img" alt="BernardA" >
+                    <div class="card-body">
+                    <h2 class="card-title">Bernard Arnault</h2>
+                    <p class="card-text">Bernard  Jean Etienne Arnault is the chairman and chief executive of LVMH.</p>
+                    <a class="qbtn" id="chooseC">C</a>
+                    </div>
+                </div>
+            </div>
+            <div class="lecture-note" id="answer"> </div>
+        </div>
+    </section>
+    <!-- End -->
+    <section id="end">
+        <!-- Center text -->
+        <div class="text-md-center">
+            <h1> Thanks for joining my adventure! See u next time ~ </h1>
+            <!-- Goobbey image -->
+            <img src="./images/Goodbye.png" class="goodbye data-mdb-toggle='animation' data-mdb-animation-reset='true' data-mdb-animation='slide-out-right'" style="width:500px" alt="goodbye">
+        </div>
+    </section>
+</body>
+</html>
